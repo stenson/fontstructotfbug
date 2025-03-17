@@ -1,0 +1,10 @@
+[project]
+name = "fontstructotfbug"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fonttools>=4.56.0",
+    "uharfbuzz==0.39.3", # switch to 0.39.1 for a working example
+]
